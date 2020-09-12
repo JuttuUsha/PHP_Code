@@ -1,0 +1,68 @@
+<! file simpleajax.htm -->
+<HTML XMLns="http://www.w3.org/1999/xHTML"> 
+  <head> 
+    <title>A Simple Ajax Example</title> 
+	<script type="text/javascript" src="xhr.js"></script>
+    <script type="text/javascript" src="simpleajax.js"> </script>
+  </head> 
+  <body>
+  <H1>Fetching data with Ajax &nbsp;</H1>
+	<table>
+		<tr>
+		<td>
+		<form>
+			<table>
+			<tr><td>
+			 <label>User Name:  <input type="text" name="namefield"> </label>
+ 			</td></tr>
+			<tr><td>
+	   		 <label>Password: <input type="text" name="pwdfield">  </label>
+			</td></tr>
+			<tr><td>		   
+			 <input name="submit" type = "button" onClick = "getData('data.php','targetDiv', namefield.value, pwdfield.value,true,'targetDiv2') " value = "Fetch from server">
+			</td></tr>
+			</table>
+		</form>
+		</td>
+		<td>
+		<form>
+			<table>
+			<tr><td>
+	    		<label>User Name:  <input type="text" name="namefield2"> </label>
+ 			</td></tr>
+			<tr><td>    
+			<label>Password: <input type="text" name="pwdfield2">  </label>
+			</td></tr>
+			<tr><td>
+	    		<input name="submit2" type = "button" onClick = "getData2('data.php','targetDiv3', namefield2.value, pwdfield2.value,false) " value = "Synchronous - Fetch from server">
+			</td></tr>
+			</table>
+		</form>
+		</td>
+		</tr>
+		<tr>
+			<td>
+			<div id="targetDiv"> 
+			    <p>The fetched data will go here.</p>  
+			</div>
+			</td>
+			<td>
+			<div id="targetDiv3"> 
+		   	 <p>The fetched data will go here.</p>  
+			</div>
+			</td> 
+		</tr>
+		<tr>
+			<td>
+					
+			<div id="targetDiv2"> 
+			    <p>The fetched data will go here.</p>  
+			</div>
+
+			</td>
+
+			<td></td>
+		</tr>
+	</table>
+ </body> 
+</HTML>

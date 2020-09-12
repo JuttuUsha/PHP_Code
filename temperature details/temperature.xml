@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<temperature>
+    <detail><day>1</day>
+        <month>4</month>
+	<year>2013</year>
+        <value>24.0</value>
+    </detail>
+    <detail><day>2</day>
+        <month>4</month>
+	<year>2013</year>
+        <value>24.0</value>
+    </detail>
+    <detail><day>3</day>
+        <month>4</month>
+	<year>2013</year>
+        <value>24.4</value>
+    </detail>
+    <detail><day>4</day>
+        <month>4</month>
+	<year>2013</year>
+        <value>25.8</value>
+    </detail>
+    <detail><day>5</day>
+        <month>4</month>
+	<year>2013</year>
+        <value>26.9</value>
+    </detail>
+    <detail><day>6</day>
+        <month>4</month>
+	<year>2013</year>
+        <value>25.3</value>
+    </detail>
+    <detail><day>7</day>
+        <month>4</month>
+	<year>2013</year>
+        <value>25.7</value>
+    </detail>
+</temperature>

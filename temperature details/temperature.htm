@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Requesting XML</title>
+	<script type="text/javascript" src="xhr.js"></script> 
+	<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+    	<h1>Requesting XML</h1>
+    	<form>
+        	<input type = "button" id="requestDoc" value = "Make request"> 
+    	</form>
+    	<script type="text/javascript"> 
+		// register call-back on button
+        	var myButton = document.getElementById('requestDoc');
+        	myButton.onclick = getDoc; 
+		//  specifies that function getDoc is to be called when button is pressed
+    	</script>
+	<div id="detailDiv">
+	</div>
+</body>
+</html>
